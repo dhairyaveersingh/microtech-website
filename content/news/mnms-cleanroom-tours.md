@@ -2,7 +2,7 @@
 title: "MNMS Cleanroom Tours"
 date: "2026-01-20"
 tags: ["Tour", "Workshop"]
-thumbnail: "/images/news-placeholder.jpg"
+thumbnail: "/images/sp26 cleanroom.png"
 excerpt: "Experience the cutting-edge cleanroom facilities at the Micro and Nanotechnology Laboratory with Illinois MicroTech."
 ---
 
