@@ -2,7 +2,7 @@
 title: "Illinois Union Fundraiser"
 date: "2026-02-15"
 tags: ["Social", "Fundraiser"]
-thumbnail: "/images/news-placeholder.jpg"
+thumbnail: "/images/sp26 union fundraiser.png"
 excerpt: "Join us for our Illinois Union fundraiser event! Support Illinois MicroTech while enjoying great food and company."
 ---
 
