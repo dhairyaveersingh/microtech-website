@@ -2,7 +2,7 @@
 title: "Graduate Student Panel"
 date: "2025-11-10"
 tags: ["Panel", "Workshop"]
-thumbnail: "/images/news-placeholder.jpg"
+thumbnail: "/images/sp26 grad panel.png"
 excerpt: "Learn from UIUC graduate students about research opportunities in MEMS and microtechnology."
 ---
 
