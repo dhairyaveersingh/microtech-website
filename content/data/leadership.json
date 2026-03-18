@@ -1,0 +1,99 @@
+{
+  "execBoards": [
+    {
+      "semester": "Spring 2026",
+      "members": [
+        { "name": "President", "role": "President", "image": "/images/exec-placeholder.png" },
+        { "name": "Vice President", "role": "Vice President", "image": "/images/exec-placeholder.png" },
+        { "name": "Treasurer", "role": "Treasurer", "image": "/images/exec-placeholder.png" },
+        { "name": "Secretary", "role": "Secretary", "image": "/images/exec-placeholder.png" },
+        { "name": "Social Media", "role": "Social Media", "image": "/images/exec-placeholder.png" },
+        { "name": "Outreach", "role": "Outreach", "image": "/images/exec-placeholder.png" },
+        { "name": "Social", "role": "Social", "image": "/images/exec-placeholder.png" }
+      ]
+    },
+    {
+      "semester": "Fall 2025",
+      "members": [
+        { "name": "President", "role": "President", "image": "/images/exec-placeholder.png" },
+        { "name": "Vice President", "role": "Vice President", "image": "/images/exec-placeholder.png" },
+        { "name": "Treasurer", "role": "Treasurer", "image": "/images/exec-placeholder.png" },
+        { "name": "Secretary", "role": "Secretary", "image": "/images/exec-placeholder.png" },
+        { "name": "Social Media", "role": "Social Media", "image": "/images/exec-placeholder.png" }
+      ]
+    },
+    {
+      "semester": "Spring 2025",
+      "members": [
+        { "name": "President", "role": "President", "image": "/images/exec-placeholder.png" },
+        { "name": "Vice President", "role": "Vice President", "image": "/images/exec-placeholder.png" },
+        { "name": "Treasurer", "role": "Treasurer", "image": "/images/exec-placeholder.png" },
+        { "name": "Secretary", "role": "Secretary", "image": "/images/exec-placeholder.png" }
+      ]
+    },
+    {
+      "semester": "Fall 2024",
+      "members": [
+        { "name": "President", "role": "President", "image": "/images/exec-placeholder.png" },
+        { "name": "Vice President", "role": "Vice President", "image": "/images/exec-placeholder.png" },
+        { "name": "Treasurer", "role": "Treasurer", "image": "/images/exec-placeholder.png" },
+        { "name": "Secretary", "role": "Secretary", "image": "/images/exec-placeholder.png" }
+      ]
+    },
+    {
+      "semester": "Spring 2024",
+      "members": [
+        { "name": "President", "role": "President", "image": "/images/exec-placeholder.png" },
+        { "name": "Vice President", "role": "Vice President", "image": "/images/exec-placeholder.png" },
+        { "name": "Treasurer", "role": "Treasurer", "image": "/images/exec-placeholder.png" },
+        { "name": "Secretary", "role": "Secretary", "image": "/images/exec-placeholder.png" }
+      ]
+    },
+    {
+      "semester": "Fall 2023",
+      "members": [
+        { "name": "President", "role": "President", "image": "/images/exec-placeholder.png" },
+        { "name": "Vice President", "role": "Vice President", "image": "/images/exec-placeholder.png" },
+        { "name": "Treasurer", "role": "Treasurer", "image": "/images/exec-placeholder.png" },
+        { "name": "Secretary", "role": "Secretary", "image": "/images/exec-placeholder.png" }
+      ]
+    }
+  ],
+  "hackerfabTeam": {
+    "currentMembers": [
+      "Team Member 1",
+      "Team Member 2",
+      "Team Member 3",
+      "Team Member 4",
+      "Team Member 5",
+      "Team Member 6",
+      "Team Member 7",
+      "Team Member 8"
+    ],
+    "foundingMembers": [
+      "Justin Pan",
+      "Meghan Blomberg",
+      "Addy Smith",
+      "Mudit Mehta",
+      "Andrew He",
+      "Ben Swinehart"
+    ],
+    "leads": [
+      "Mudit Mehta"
+    ]
+  },
+  "eohTeam": {
+    "currentMembers": [
+      "Team Member 1",
+      "Team Member 2",
+      "Team Member 3",
+      "Team Member 4",
+      "Team Member 5",
+      "Team Member 6"
+    ],
+    "leads": [
+      "Medhansh Garg",
+      "Ben Swinehart"
+    ]
+  }
+}

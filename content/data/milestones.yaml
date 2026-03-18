@@ -1,0 +1,33 @@
+general:
+  - date: "Fall 2023"
+    title: "Club Founded"
+    description: "Illinois MicroTech was founded and officially accepted as a Registered Student Organization (RSO) at UIUC."
+    
+  - date: "Spring 2024"
+    title: "First MEMS Meeting & EOH Debut"
+    description: "Hosted our first 'Intro to MEMS' meeting and presented our first EOH project on Shunt Occlusions."
+    
+  - date: "Fall 2024"
+    title: "Cleanroom Tours & Grad Panel"
+    description: "Organized our first cleanroom tours at MNMS and hosted our inaugural invited Graduate Panel."
+    
+  - date: "Fall 2025"
+    title: "KLayout Design Workshop"
+    description: "Conducted KLayout Design Workshop and accepted the first 4 teams to HackerFab."
+    
+  - date: "Spring 2026"
+    title: "Placid Grant & EOH 2026"
+    description: "Received $1k grant from Placid. Presenting 'Le Louvre Heist' at Engineering Open House 2026."
+
+hackerfab:
+  - date: "Spring 2025"
+    title: "HackerFab Initiative Launched"
+    description: "Initiated the HackerFab project - first successful UV light projection of block 'I' onto a wafer."
+    
+  - date: "Fall 2025"
+    title: "First Teams Accepted"
+    description: "Accepted the first 4 teams to work on HackerFab projects. Expanded infrastructure and capabilities."
+    
+  - date: "Spring 2026"
+    title: "BIOE Course Integration"
+    description: "HackerFab integrated with BIOE 199/299 course. Continued development with support from donors like Placid."

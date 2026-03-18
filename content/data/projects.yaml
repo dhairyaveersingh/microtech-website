@@ -1,0 +1,49 @@
+eoh:
+  description: "Engineering Open House (EOH) is UIUC's largest student-run event, showcasing cutting-edge engineering projects to the public. Illinois MicroTech proudly participates each year, demonstrating the fascinating world of microtechnology through interactive exhibits and demonstrations."
+  
+  projects:
+    - year: 2024
+      title: "Shunt Occlusions + Large Scale MEMS"
+      description: "Our debut EOH project explored medical applications of MEMS through shunt occlusion demonstrations, alongside large-scale models of microelectromechanical systems to help visitors visualize the microscale world."
+      
+    - year: 2025
+      title: "HackerFab Tool Debut"
+      description: "First public presentation of our HackerFab fabrication tool, showcasing open-source micro/nanofabrication capabilities developed by our team."
+      
+    - year: 2026
+      title: "Le Louvre Heist"
+      description: "An interactive exhibit combining microtechnology with an engaging heist narrative, demonstrating practical applications of MEMS sensors and microsystems in security applications."
+
+hackerfab:
+  description: "HackerFab is an open-source micro/nanofabrication initiative that aims to democratize access to semiconductor fabrication tools and knowledge. Illinois MicroTech is proud to be an active contributor and host to this groundbreaking project."
+  
+  involvement: "Our club hosts HackerFab equipment and provides undergraduate students with hands-on experience in microfabrication. We've successfully projected UV light patterns onto wafers and continue to expand our capabilities each semester."
+  
+  resources:
+    - name: "HackerFab GitHub"
+      url: "https://github.com/hackerfab"
+    - name: "HackerFab Documentation"
+      url: "https://hackerfab.org"
+      
+  acknowledgments:
+    - "Placid - Generous $1k grant supporting our fabrication efforts"
+    - "BIOE 199/299 Course Integration - Academic partnership bringing HackerFab to the classroom"
+    
+  progress:
+    - semester: "Spring 2025"
+      achievements:
+        - "Project initiation and equipment setup"
+        - "First UV light projection of block 'I' onto wafer"
+        - "Established foundational processes"
+        
+    - semester: "Fall 2025"
+      achievements:
+        - "Accepted first 4 student teams"
+        - "Expanded fabrication capabilities"
+        - "Conducted KLayout design workshops"
+        
+    - semester: "Spring 2026"
+      achievements:
+        - "Received Placid grant funding"
+        - "BIOE course integration"
+        - "Continued process development"
