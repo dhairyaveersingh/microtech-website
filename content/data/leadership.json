@@ -3,13 +3,16 @@
     {
       "semester": "Spring 2026",
       "members": [
-        { "name": "President", "role": "President", "image": "/images/exec-placeholder.png" },
-        { "name": "Vice President", "role": "Vice President", "image": "/images/exec-placeholder.png" },
-        { "name": "Treasurer", "role": "Treasurer", "image": "/images/exec-placeholder.png" },
-        { "name": "Secretary", "role": "Secretary", "image": "/images/exec-placeholder.png" },
-        { "name": "Social Media", "role": "Social Media", "image": "/images/exec-placeholder.png" },
-        { "name": "Outreach", "role": "Outreach", "image": "/images/exec-placeholder.png" },
-        { "name": "Social", "role": "Social", "image": "/images/exec-placeholder.png" }
+        { "name": "Meghan Blomberg", "role": "President", "image": "/images/exec-placeholder.png" },
+        { "name": "Addy Smith", "role": "Vice President", "image": "/images/exec-placeholder.png" },
+        { "name": "Anhiti Mandal", "role": "IVP", "image": "/images/exec-placeholder.png" }
+        { "name": "Vishnu Vavilala", "role": "Treasurer", "image": "/images/exec-placeholder.png" },
+        { "name": "Mudit Mehta", "role": "HackerFab Lead", "image": "/images/exec-placeholder.png" },
+        { "name": "Patrick Kolcan", "role": "Social Media", "image": "/images/exec-placeholder.png" },
+        { "name": "Angela", "role": "Outreach", "image": "/images/exec-placeholder.png" },
+        { "name": "Veer Singh", "role": "Social", "image": "/images/exec-placeholder.png" }
+        { "name": "Medhansh Garg", "role": "EOH Lead", "image": "/images/exec-placeholder.png" }
+        { "name": "Ben Swinehart", "role": "EOH Lead", "image": "/images/exec-placeholder.png" }
       ]
     },
     {
