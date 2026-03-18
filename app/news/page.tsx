@@ -23,7 +23,7 @@ const newsItems = [
     formattedDate: "January 20, 2026",
     tags: ["Tour", "Workshop"],
     excerpt: "Experience the cutting-edge cleanroom facilities at the Micro and Nanotechnology Laboratory with Illinois MicroTech.",
-    image: "/images/news/images/sp26 cleanroom.png",
+    image: "/images/news/sp26 cleanroom.png",
   },
   {
     slug: "grad-panel",
