@@ -14,7 +14,7 @@ const newsItems = [
     formattedDate: "February 15, 2026",
     tags: ["Social", "Fundraiser"],
     excerpt: "Join us for our Illinois Union fundraiser event! Support Illinois MicroTech while enjoying great food and company.",
-    image: "/images/news/fundraiser.jpg",
+    image: "/images/news/sp26 union fundraiser.png",
   },
   {
     slug: "mnms-cleanroom-tours",
@@ -23,7 +23,7 @@ const newsItems = [
     formattedDate: "January 20, 2026",
     tags: ["Tour", "Workshop"],
     excerpt: "Experience the cutting-edge cleanroom facilities at the Micro and Nanotechnology Laboratory with Illinois MicroTech.",
-    image: "/images/news/cleanroom-tour.jpg",
+    image: "/images/news/images/sp26 cleanroom.png",
   },
   {
     slug: "grad-panel",
@@ -32,7 +32,7 @@ const newsItems = [
     formattedDate: "November 10, 2025",
     tags: ["Panel", "Workshop"],
     excerpt: "Learn from UIUC graduate students about research opportunities in MEMS and microtechnology.",
-    image: "/images/news/grad-panel.jpg",
+    image: "/images/news/sp26 grad panel.png",
   },
 ]
 
