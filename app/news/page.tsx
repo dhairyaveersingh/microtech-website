@@ -24,7 +24,7 @@ const newsItems = [
     tags: ["Social", "Fundraiser"],
     excerpt: "Join us for our Illinois Union fundraiser event! Support Illinois MicroTech while enjoying great food and company.",
     image: "/images/news/sp26 union fundraiser.png",
-  }
+  },
   {
     slug: "mnms-cleanroom-tours",
     title: "MNMS Cleanroom Tours",
