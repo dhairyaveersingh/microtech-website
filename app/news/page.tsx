@@ -8,6 +8,15 @@ import Image from "next/image"
 // For now, we're using static data that mirrors the content structure
 const newsItems = [
   {
+    slug: "test",
+    title: "test",
+    date: "2026-02-15",
+    formattedDate: "March 20, 2026",
+    tags: ["Social", "Fundraiser"],
+    excerpt: "abcd.",
+    image: "/images/news/sp26 union fundraiser.png",
+  },
+  {
     slug: "illinois-union-fundraiser",
     title: "Illinois Union Fundraiser",
     date: "2026-02-15",
@@ -15,7 +24,7 @@ const newsItems = [
     tags: ["Social", "Fundraiser"],
     excerpt: "Join us for our Illinois Union fundraiser event! Support Illinois MicroTech while enjoying great food and company.",
     image: "/images/news/sp26 union fundraiser.png",
-  },
+  }
   {
     slug: "mnms-cleanroom-tours",
     title: "MNMS Cleanroom Tours",
