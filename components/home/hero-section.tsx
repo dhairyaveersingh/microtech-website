@@ -70,7 +70,7 @@ export function HeroSection() {
           </h1>
           
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground text-pretty">
-            Bringing experiences in MEMS and microtechnology to the undergraduate student population at the University of Illinois Urbana-Champaign!
+            Bringing microtechnology and cleanroom fabrication to students on campus!
           </p>
 
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
