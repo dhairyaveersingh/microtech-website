@@ -5,8 +5,8 @@ import Image from "next/image"
 
 const tablingEvents = [
   {
-    name: "Illini Lift Off",
-    description: "Welcome event for new and returning students at the start of the academic year. A great opportunity to introduce freshmen to the world of microtechnology.",
+    name: "event xyz",
+    description: "wtv idk.",
     image: "/images/exec-placeholder.png",
   },
   {
