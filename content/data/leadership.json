@@ -3,16 +3,16 @@
     {
       "semester": "Spring 2026",
       "members": [
-        { "name": "Meghan Blomberg", "role": "President", "image": "/images/exec-placeholder.png" },
-        { "name": "Addy Smith", "role": "Vice President", "image": "/images/exec-placeholder.png" },
-        { "name": "Anhiti Mandal", "role": "IVP", "image": "/images/exec-placeholder.png" },
-        { "name": "Vishnu Vavilala", "role": "Treasurer", "image": "/images/exec-placeholder.png" },
-        { "name": "Mudit Mehta", "role": "HackerFab Lead", "image": "/images/exec-placeholder.png" },
-        { "name": "Patrick Kolcan", "role": "Social Media", "image": "/images/exec-placeholder.png" },
-        { "name": "Angela", "role": "Outreach", "image": "/images/exec-placeholder.png" },
-        { "name": "Veer Singh", "role": "Social", "image": "/images/exec-placeholder.png" },
-        { "name": "Medhansh Garg", "role": "EOH Lead", "image": "/images/exec-placeholder.png" },
-        { "name": "Ben Swinehart", "role": "EOH Lead", "image": "/images/exec-placeholder.png" }
+        { "name": "Meghan Blomberg", "role": "President", "image": "/images/meghan exec photo.jpg" },
+        { "name": "Addy Smith", "role": "Vice President", "image": "/images/addy pic.webp" },
+        { "name": "Anhiti Mandal", "role": "IVP", "image": "/images/Anhiti Prof Picture 2.jpeg" },
+        { "name": "Vishnu Vavilala", "role": "Treasurer", "image": "/images/vishnu exec.jpg" },
+        { "name": "Mudit Mehta", "role": "HackerFab Lead", "image": "/images/mudit exec.jpg" },
+        { "name": "Patrick Kolcan", "role": "Social Media", "image": "/images/patrick exec.jpg" },
+        { "name": "Angela", "role": "Outreach", "image": "/images/Angela Prof Picture.jpeg" },
+        { "name": "Veer Singh", "role": "Social", "image": "/images/veer exec.jpg" },
+        { "name": "Medhansh Garg", "role": "EOH Lead", "image": "/images/medhansh exec.jpg" },
+        { "name": "Ben Swinehart", "role": "EOH Lead", "image": "/images/ben exec.jpg" }
       ]
     },
     {
