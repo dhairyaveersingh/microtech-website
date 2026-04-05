@@ -6,8 +6,8 @@ import Image from "next/image"
 const tablingEvents = [
   {
     name: "event xyz",
-    description: "wtv idk.",
-    image: "/images/exec-placeholder.png",
+    description: "Engineering Open House.",
+    image: "/images/SP25_EOH_3.JPG",
   },
   {
     name: "Quad Day",
