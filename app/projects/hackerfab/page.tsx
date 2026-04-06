@@ -3,24 +3,6 @@ import { Footer } from "@/components/footer"
 import { CircuitDivider } from "@/components/circuit-divider"
 import Link from "next/link"
 
-const eohProjects = [
-  {
-    year: 2024,
-    title: "Shunt Occlusions + Large Scale MEMS",
-    description: "Our debut EOH project explored medical applications of MEMS through shunt occlusion demonstrations, alongside large-scale models of microelectromechanical systems to help visitors visualize the microscale world.",
-  },
-  {
-    year: 2025,
-    title: "HackerFab Tool Debut",
-    description: "First public presentation of our HackerFab fabrication tool, showcasing open-source micro/nanofabrication capabilities developed by our team.",
-  },
-  {
-    year: 2026,
-    title: "Le Louvre Heist",
-    description: "An interactive exhibit combining microtechnology with an engaging heist narrative, demonstrating practical applications of MEMS sensors and microsystems in security applications.",
-  },
-]
-
 const hackerfabProgress = [
   {
     semester: "Spring 2025",
@@ -48,7 +30,30 @@ const hackerfabProgress = [
   },
 ]
 
-export default function ProjectsPage() {
+const teamMembers = [
+  {
+    name: "Team Member",
+    role: "HackerFab Lead",
+    image: null,
+  },
+  {
+    name: "Team Member",
+    role: "Process Engineer",
+    image: null,
+  },
+  {
+    name: "Team Member",
+    role: "Equipment Manager",
+    image: null,
+  },
+  {
+    name: "Team Member",
+    role: "Workshop Coordinator",
+    image: null,
+  },
+]
+
+export default function HackerFabPage() {
   return (
     <div className="flex min-h-screen flex-col">
       <Navbar />
@@ -56,97 +61,43 @@ export default function ProjectsPage() {
         {/* Header */}
         <section className="bg-muted/30 py-16 sm:py-24">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="mx-auto max-w-2xl text-center">
+            <Link
+              href="/projects"
+              className="mb-6 inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
+            >
+              <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M19 12H5M12 19l-7-7 7-7" />
+              </svg>
+              Back to Projects
+            </Link>
+            <div className="flex items-center gap-4">
+              <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-secondary/30 text-secondary-foreground">
+                <svg viewBox="0 0 24 24" className="h-7 w-7" fill="none" stroke="currentColor" strokeWidth="1.5">
+                  <rect x="4" y="4" width="16" height="16" rx="2" />
+                  <rect x="9" y="9" width="6" height="6" />
+                  <path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3" />
+                </svg>
+              </div>
               <h1 className="font-serif text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
-                Our Projects
+                HackerFab
               </h1>
-              <p className="mt-4 text-lg text-muted-foreground">
-                Explore our work at Engineering Open House and our ongoing HackerFab initiative
-              </p>
             </div>
+            <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
+              Open-source micro/nanofabrication initiative democratizing access to semiconductor fabrication
+            </p>
           </div>
         </section>
 
-        {/* Two Column Layout */}
+        {/* Two Column Content */}
         <section className="py-16 sm:py-24">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="grid gap-16 lg:grid-cols-2">
-              {/* EOH Section */}
+              {/* Left Column - Project Information */}
               <div>
-                <Link
-                  href="/projects/engineering-open-house"
-                  className="group flex items-center gap-4 transition-opacity hover:opacity-80"
-                >
-                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-primary">
-                    <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5">
-                      <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
-                      <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
-                    </svg>
-                  </div>
-                  <h2 className="font-serif text-2xl font-bold text-foreground sm:text-3xl group-hover:text-primary transition-colors">
-                    Engineering Open House
-                  </h2>
-                  <svg viewBox="0 0 24 24" className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M5 12h14M12 5l7 7-7 7" />
-                  </svg>
-                </Link>
-
+                <h2 className="font-serif text-2xl font-bold text-foreground">
+                  About HackerFab
+                </h2>
                 <CircuitDivider className="py-6" />
-
-                <p className="text-muted-foreground leading-relaxed">
-                  Engineering Open House (EOH) is UIUC&apos;s largest student-run event, showcasing cutting-edge engineering projects to the public. Illinois MicroTech proudly participates each year, demonstrating the fascinating world of microtechnology through interactive exhibits and demonstrations.
-                </p>
-
-                <div className="mt-8 space-y-6">
-                  {eohProjects.map((project, index) => (
-                    <div
-                      key={project.year}
-                      className="relative rounded-xl border border-border bg-card p-6 transition-all hover:border-primary/50"
-                    >
-                      {/* Year badge */}
-                      <div className="absolute -top-3 left-6 rounded-full bg-primary px-3 py-1 text-sm font-semibold text-primary-foreground">
-                        {project.year}
-                      </div>
-
-                      <h3 className="mt-2 font-serif text-lg font-semibold text-foreground">
-                        {project.title}
-                      </h3>
-                      <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
-                        {project.description}
-                      </p>
-
-                      {/* Connecting line */}
-                      {index < eohProjects.length - 1 && (
-                        <div className="absolute -bottom-6 left-10 h-6 w-px bg-gradient-to-b from-primary/50 to-transparent" />
-                      )}
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              {/* HackerFab Section */}
-              <div>
-                <Link
-                  href="/projects/hackerfab"
-                  className="group flex items-center gap-4 transition-opacity hover:opacity-80"
-                >
-                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-secondary/30 text-secondary-foreground">
-                    <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5">
-                      <rect x="4" y="4" width="16" height="16" rx="2" />
-                      <rect x="9" y="9" width="6" height="6" />
-                      <path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3" />
-                    </svg>
-                  </div>
-                  <h2 className="font-serif text-2xl font-bold text-foreground sm:text-3xl group-hover:text-primary transition-colors">
-                    HackerFab
-                  </h2>
-                  <svg viewBox="0 0 24 24" className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M5 12h14M12 5l7 7-7 7" />
-                  </svg>
-                </Link>
-
-                <CircuitDivider className="py-6" />
-
                 <p className="text-muted-foreground leading-relaxed">
                   HackerFab is an open-source micro/nanofabrication initiative that aims to democratize access to semiconductor fabrication tools and knowledge. Illinois MicroTech is proud to be an active contributor and host to this groundbreaking project.
                 </p>
@@ -157,12 +108,11 @@ export default function ProjectsPage() {
                   </p>
                 </div>
 
-                {/* Progress Timeline */}
-                <h3 className="mt-8 font-serif text-lg font-semibold text-foreground">
+                <h3 className="mt-10 font-serif text-xl font-semibold text-foreground">
                   Progress by Semester
                 </h3>
 
-                <div className="mt-4 space-y-4">
+                <div className="mt-6 space-y-4">
                   {hackerfabProgress.map((semester) => (
                     <div key={semester.semester} className="rounded-lg border border-border bg-card p-4">
                       <h4 className="font-semibold text-primary">{semester.semester}</h4>
@@ -179,8 +129,8 @@ export default function ProjectsPage() {
                 </div>
 
                 {/* Resources & Acknowledgments */}
-                <div className="mt-8 space-y-4">
-                  <h3 className="font-serif text-lg font-semibold text-foreground">
+                <div className="mt-10 space-y-4">
+                  <h3 className="font-serif text-xl font-semibold text-foreground">
                     Resources
                   </h3>
                   <div className="flex flex-wrap gap-3">
@@ -210,7 +160,7 @@ export default function ProjectsPage() {
                     </a>
                   </div>
 
-                  <h3 className="mt-6 font-serif text-lg font-semibold text-foreground">
+                  <h3 className="mt-6 font-serif text-xl font-semibold text-foreground">
                     Acknowledgments
                   </h3>
                   <ul className="space-y-2 text-sm text-muted-foreground">
@@ -224,6 +174,67 @@ export default function ProjectsPage() {
                     </li>
                   </ul>
                 </div>
+              </div>
+
+              {/* Right Column - Team & Photos */}
+              <div>
+                <h2 className="font-serif text-2xl font-bold text-foreground">
+                  HackerFab Team
+                </h2>
+                <CircuitDivider className="py-6" />
+
+                <div className="grid gap-4 sm:grid-cols-2">
+                  {teamMembers.map((member, index) => (
+                    <div
+                      key={index}
+                      className="group rounded-xl border border-border bg-card p-4 transition-all hover:border-secondary/50"
+                    >
+                      <div className="aspect-square w-full overflow-hidden rounded-lg bg-muted/50 mb-4">
+                        {member.image ? (
+                          <img
+                            src={member.image}
+                            alt={member.name}
+                            className="h-full w-full object-cover"
+                          />
+                        ) : (
+                          <div className="flex h-full w-full items-center justify-center">
+                            <svg viewBox="0 0 24 24" className="h-16 w-16 text-muted-foreground/30" fill="none" stroke="currentColor" strokeWidth="1">
+                              <circle cx="12" cy="8" r="4" />
+                              <path d="M4 20c0-4 4-6 8-6s8 2 8 6" />
+                            </svg>
+                          </div>
+                        )}
+                      </div>
+                      <h4 className="font-semibold text-foreground">{member.name}</h4>
+                      <p className="text-sm text-muted-foreground">{member.role}</p>
+                    </div>
+                  ))}
+                </div>
+
+                <h3 className="mt-10 font-serif text-xl font-semibold text-foreground">
+                  Lab Photos
+                </h3>
+                <CircuitDivider className="py-6" />
+
+                <div className="grid gap-4 grid-cols-2">
+                  {[1, 2, 3, 4].map((index) => (
+                    <div
+                      key={index}
+                      className="aspect-[4/3] overflow-hidden rounded-xl border border-border bg-muted/30 transition-all hover:border-secondary/50"
+                    >
+                      <div className="flex h-full w-full items-center justify-center">
+                        <svg viewBox="0 0 24 24" className="h-10 w-10 text-muted-foreground/30" fill="none" stroke="currentColor" strokeWidth="1">
+                          <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                          <circle cx="8.5" cy="8.5" r="1.5" />
+                          <polyline points="21 15 16 10 5 21" />
+                        </svg>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+                <p className="mt-4 text-sm text-muted-foreground text-center">
+                  Photos from HackerFab lab sessions coming soon
+                </p>
               </div>
             </div>
           </div>
