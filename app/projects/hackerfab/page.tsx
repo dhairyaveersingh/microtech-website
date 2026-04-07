@@ -32,7 +32,7 @@ const hackerfabProgress = [
 
 const teamMembers = [
   {
-    name: "Team Member",
+    name: "Mudit Mehta",
     role: "HackerFab Lead",
     image: null,
   },
