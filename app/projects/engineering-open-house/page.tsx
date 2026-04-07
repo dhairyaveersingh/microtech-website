@@ -23,13 +23,13 @@ const eohProjects = [
 
 const teamMembers = [
   {
-    name: "Team Member",
+    name: "Medansh garg",
     role: "EOH Lead",
     image: null,
   },
   {
-    name: "Team Member",
-    role: "Project Coordinator",
+    name: "Ben Swinehart",
+    role: "EOH Lead",
     image: null,
   },
   {
