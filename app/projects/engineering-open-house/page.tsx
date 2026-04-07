@@ -25,12 +25,12 @@ const teamMembers = [
   {
     name: "Medansh garg",
     role: "EOH Lead",
-    image: null,
+    image: "/images/medhansh exec.jpg",
   },
   {
     name: "Ben Swinehart",
     role: "EOH Lead",
-    image: null,
+    image: "/images/ben exec.jpg",
   },
   {
     name: "Team Member",
