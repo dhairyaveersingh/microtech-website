@@ -34,7 +34,7 @@ const teamMembers = [
   {
     name: "Mudit Mehta",
     role: "HackerFab Lead",
-    image: null,
+    image: "/images/mudit exec.jpg",
   },
   {
     name: "Team Member",
