@@ -2,28 +2,10 @@ import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { CircuitDivider } from "@/components/circuit-divider"
-
-// This would typically be fetched from the markdown files
-const latestNews = [
-  {
-    slug: "illinois-union-fundraiser",
-    title: "Illinois Union Fundraiser",
-    date: "February 15, 2026",
-    excerpt: "Join us for our Illinois Union fundraiser event! Support Illinois MicroTech while enjoying great food and company.",
-    tags: ["Social", "Fundraiser"],
-    image: "/images/exec-placeholder.png",
-  },
-  {
-    slug: "mnms-cleanroom-tours",
-    title: "MNMS Cleanroom Tours",
-    date: "January 20, 2026",
-    excerpt: "Experience the cutting-edge cleanroom facilities at the Micro and Nanotechnology Laboratory with Illinois MicroTech.",
-    tags: ["Tour", "Workshop"],
-    image: "/images/exec-placeholder.png",
-  },
-]
+import { newsItems } from "@/lib/news"
 
 export function NewsSection() {
+  const latestNews = newsItems.slice(0, 2)
   return (
     <section className="bg-muted/30 py-16 sm:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -97,7 +79,7 @@ export function NewsSection() {
 
                 <div className="mt-4 flex items-center justify-between">
                   <time className="text-xs text-muted-foreground">
-                    {post.date}
+                    {post.formattedDate}
                   </time>
                   <span className="text-sm font-medium text-primary group-hover:underline">
                     Read more

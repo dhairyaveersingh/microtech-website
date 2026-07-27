@@ -3,46 +3,7 @@ import { Footer } from "@/components/footer"
 import { CircuitDivider } from "@/components/circuit-divider"
 import Link from "next/link"
 import Image from "next/image"
-
-// This data would typically be read from markdown files
-// For now, we're using static data that mirrors the content structure
-const newsItems = [
-  {
-    slug: "illinois-union-fundraiser",
-    title: "Illinois Union Fundraiser",
-    date: "2026-02-15",
-    formattedDate: "February 15, 2026",
-    tags: ["Social", "Fundraiser"],
-    excerpt: "Join us for our Illinois Union fundraiser event! Support Illinois MicroTech while enjoying great food and company.",
-    image: "/images/news/sp26 union fundraiser.png",
-  },
-  {
-    slug: "mnms-cleanroom-tours",
-    title: "MNMS Cleanroom Tours",
-    date: "2026-01-20",
-    formattedDate: "January 20, 2026",
-    tags: ["Tour", "Workshop"],
-    excerpt: "Experience the cutting-edge cleanroom facilities at the Micro and Nanotechnology Laboratory with Illinois MicroTech.",
-    image: "/images/news/sp26 cleanroom.png",
-  },
-  {
-    slug: "grad-panel",
-    title: "Graduate Student Panel",
-    date: "2025-11-10",
-    formattedDate: "November 10, 2025",
-    tags: ["Panel", "Workshop"],
-    excerpt: "Learn from UIUC graduate students about research opportunities in MEMS and microtechnology.",
-    image: "/images/news/sp26 grad panel.png",
-  },
-]
-
-const tagColors: Record<string, string> = {
-  Social: "bg-primary/10 text-primary",
-  Fundraiser: "bg-secondary/30 text-secondary-foreground",
-  Tour: "bg-primary/10 text-primary",
-  Workshop: "bg-secondary/30 text-secondary-foreground",
-  Panel: "bg-primary/10 text-primary",
-}
+import { newsItems, tagColors } from "@/lib/news"
 
 export default function NewsPage() {
   return (
