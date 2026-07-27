@@ -3,97 +3,10 @@ import { Footer } from "@/components/footer"
 import { CircuitDivider } from "@/components/circuit-divider"
 import Link from "next/link"
 import { notFound } from "next/navigation"
-
-// This data would typically be read from markdown files
-const newsData: Record<string, {
-  title: string
-  date: string
-  formattedDate: string
-  tags: string[]
-  content: string
-}> = {
-  "illinois-union-fundraiser": {
-    title: "Illinois Union Fundraiser",
-    date: "2026-02-15",
-    formattedDate: "February 15, 2026",
-    tags: ["Social", "Fundraiser"],
-    content: `
-Join Illinois MicroTech for our exciting fundraiser at the Illinois Union! This is a great opportunity to support our club while connecting with fellow members and the broader UIUC community.
-
-## Event Details
-
-- **Date:** February 15, 2026
-- **Location:** Illinois Union
-- **Time:** 6:00 PM - 9:00 PM
-
-All proceeds go towards funding our HackerFab equipment, cleanroom tour events, and educational workshops. We hope to see you there!
-    `,
-  },
-  "mnms-cleanroom-tours": {
-    title: "MNMS Cleanroom Tours",
-    date: "2026-01-20",
-    formattedDate: "January 20, 2026",
-    tags: ["Tour", "Workshop"],
-    content: `
-Illinois MicroTech is excited to offer exclusive cleanroom tours at the Micro and Nanotechnology Laboratory (MNMS) facility on campus!
-
-## What to Expect
-
-During the tour, you'll get to:
-
-- See state-of-the-art fabrication equipment in action
-- Learn about the processes used to create microelectromechanical systems
-- Understand cleanroom protocols and why they're essential
-- Meet graduate students and researchers working on cutting-edge projects
-
-## How to Sign Up
-
-Tours are limited to small groups to ensure an optimal experience. Sign up through our Discord server or contact us via email to reserve your spot.
-
-These tours are one of our most popular events - don't miss out!
-    `,
-  },
-  "grad-panel": {
-    title: "Graduate Student Panel",
-    date: "2025-11-10",
-    formattedDate: "November 10, 2025",
-    tags: ["Panel", "Workshop"],
-    content: `
-Join us for an insightful panel discussion with UIUC graduate students working in MEMS, microfabrication, and related fields!
-
-## Panel Highlights
-
-Our distinguished panelists will share:
-
-- Their journey from undergrad to graduate research
-- Current research projects in microtechnology
-- Tips for getting involved in research as an undergraduate
-- Career paths in the semiconductor and MEMS industries
-
-## Q&A Session
-
-After the panel presentations, there will be an extended Q&A session where you can ask questions about:
-
-- Graduate school applications
-- Research opportunities at UIUC
-- Industry vs. academia career paths
-- Specific technical topics in MEMS
-
-This is a fantastic networking opportunity - come with questions!
-    `,
-  },
-}
-
-const tagColors: Record<string, string> = {
-  Social: "bg-primary/10 text-primary",
-  Fundraiser: "bg-secondary/30 text-secondary-foreground",
-  Tour: "bg-primary/10 text-primary",
-  Workshop: "bg-secondary/30 text-secondary-foreground",
-  Panel: "bg-primary/10 text-primary",
-}
+import { newsItems, tagColors } from "@/lib/news"
 
 export function generateStaticParams() {
-  return Object.keys(newsData).map((slug) => ({ slug }))
+  return newsItems.map((post) => ({ slug: post.slug }))
 }
 
 export default async function NewsArticlePage({
@@ -102,7 +15,7 @@ export default async function NewsArticlePage({
   params: Promise<{ slug: string }>
 }) {
   const { slug } = await params
-  const post = newsData[slug]
+  const post = newsItems.find((item) => item.slug === slug)
 
   if (!post) {
     notFound()
