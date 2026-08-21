@@ -9,11 +9,11 @@
         { "name": "Vishnu Vavilala", "role": "Marketing Co-Chair", "image": "/images/headshot vishnu.jpeg" },
         { "name": "Veer Singh", "role": "Marketing Co-Chair", "image": "/images/veer exec.jpg" },
         { "name": "Patrick Kolcan", "role": "Hackerfab lead", "image": "/images/patrick exec.jpg" },
-        { "name": "Nicole", "role": "Enrichment Chair", "image": "/images/headshot bella.png" },
-        { "name": "Bella", "role": "Social Chair", "image": "/images/headshot nicole.jpeg" },
+        { "name": "Nicole", "role": "Enrichment Chair", "image": "/images/headshot nicole.jpg" },
+        { "name": "Bella", "role": "Social Chair", "image": "/images/headshot bella.PNG" },
         { "name": "Jaidev", "role": "EOH Co-Lead", "image": "/images/headshot jaidev.jpeg" },
         { "name": "Luke", "role": "Treasurer", "image": "/images/headshot luke.jpg" },
-        { "name": "Shayan", "role": "Outreach", "image": "/images/headshot shayan.jpg" }
+        { "name": "Shayan", "role": "Outreach", "image": "/images/headshot shayan.JPG" }
       ]
     },
     {
