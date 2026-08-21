@@ -4,7 +4,7 @@
       "semester": "Fall 2026",
       "members": [
         { "name": "Adelyn Smith", "role": "President", "image": "/images/headshot addy.jpg" },
-        { "name": "Anhiti Mandal", "role": "IVP", "/images/headshot anhiti.jpeg" },
+        { "name": "Anhiti Mandal", "role": "IVP","image": "/images/headshot anhiti.jpeg" },
         { "name": "Medhansh Garg", "role": "EVP", "image": "/images/headshot medhansh.png" },
         { "name": "Vishnu Vavilala", "role": "Marketing Co-Chair", "image": "/images/headshot vishnu.jpeg" },
         { "name": "Veer Singh", "role": "Marketing Co-Chair", "image": "/images/veer exec.jpg" },
