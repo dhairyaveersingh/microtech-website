@@ -47,7 +47,7 @@ export function OverviewSection() {
           <div className="relative">
             <div className="aspect-[4/3] overflow-hidden rounded-2xl bg-secondary/20">
               <Image
-                src="/images/exec-placeholder.png"
+                src="/Gyro2.jpg"
                 alt="Illinois MicroTech team members"
                 width={600}
                 height={450}
