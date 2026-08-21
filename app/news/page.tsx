@@ -120,23 +120,7 @@ export default function NewsPage() {
               ))}
             </div>
 
-            {/* Info about adding posts */}
-            <div className="mt-12 rounded-xl border border-dashed border-border bg-muted/30 p-6 text-center">
-              <svg viewBox="0 0 24 24" className="mx-auto h-8 w-8 text-muted-foreground" fill="none" stroke="currentColor" strokeWidth="1.5">
-                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-                <polyline points="14 2 14 8 20 8" />
-                <line x1="12" y1="18" x2="12" y2="12" />
-                <line x1="9" y1="15" x2="15" y2="15" />
-              </svg>
-              <h3 className="mt-4 font-serif font-semibold text-foreground">
-                Adding New Posts
-              </h3>
-              <p className="mt-2 text-sm text-muted-foreground">
-                Club officers can add new posts by creating Markdown files in the{" "}
-                <code className="rounded bg-muted px-1.5 py-0.5 font-mono text-xs">/content/news/</code>{" "}
-                folder and pushing to GitHub.
-              </p>
-            </div>
+            
           </div>
         </section>
       </main>
