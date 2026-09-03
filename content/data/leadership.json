@@ -62,24 +62,6 @@
         { "name": "Mudit Mehta", "role": "HackerFab Lead", "image": "/images/mudit exec.jpg" },
         { "name": "Patrick Kolcan", "role": "Social Media", "image": "/images/patrick exec.jpg" }
       ]
-    },
-    {
-      "semester": "Spring 2024",
-      "members": [
-        { "name": "President", "role": "President", "image": "/images/exec-placeholder.png" },
-        { "name": "Vice President", "role": "Vice President", "image": "/images/exec-placeholder.png" },
-        { "name": "Treasurer", "role": "Treasurer", "image": "/images/exec-placeholder.png" },
-        { "name": "Secretary", "role": "Secretary", "image": "/images/exec-placeholder.png" }
-      ]
-    },
-    {
-      "semester": "Fall 2023",
-      "members": [
-        { "name": "President", "role": "President", "image": "/images/exec-placeholder.png" },
-        { "name": "Vice President", "role": "Vice President", "image": "/images/exec-placeholder.png" },
-        { "name": "Treasurer", "role": "Treasurer", "image": "/images/exec-placeholder.png" },
-        { "name": "Secretary", "role": "Secretary", "image": "/images/exec-placeholder.png" }
-      ]
     }
   ],
   "hackerfabTeam": {
