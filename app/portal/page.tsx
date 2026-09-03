@@ -10,7 +10,7 @@ const contactOptions = [
   {
     title: "Sponsor Contact",
     description: "Interested in sponsoring Illinois MicroTech or providing resources for our projects?",
-    email: "ajping2@illinois.edu",
+    email: "illinoismicrotech@gmail.com",
     icon: (
       <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5">
         <rect x="1" y="4" width="22" height="16" rx="2" ry="2" />
@@ -32,7 +32,7 @@ const contactOptions = [
   {
     title: "Graduate Student Contact",
     description: "Grad students interested in presenting at panels or mentoring undergraduates.",
-    email: "mb68@illinois.edu",
+    email: "illinoismicrotech@gmail.com",
     icon: (
       <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5">
         <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
@@ -44,7 +44,7 @@ const contactOptions = [
   {
     title: "HackerFab Mentorship",
     description: "Interested in becoming a mentor or joining the HackerFab initiative?",
-    email: "mb68@illinois.edu",
+    email: "illinoismicrotech@gmail.com",
     icon: (
       <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5">
         <rect x="4" y="4" width="16" height="16" rx="2" />
