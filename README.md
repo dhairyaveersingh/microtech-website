@@ -38,6 +38,12 @@ Write your content here using Markdown formatting.
 
 **Available tags:** Social, Fundraiser, Tour, Workshop, Panel
 
+### Updating the Student Resume Book
+
+Upload a PDF named **Student Name--Major.pdf** to [`public/resumes`](public/resumes). For example: `Veer Singh--Computer Science.pdf`. The Contact page automatically lists the student and opens their resume when clicked.
+
+See the [step-by-step GitHub upload instructions](public/resumes/README.md) for adding, replacing, or removing resumes. No code or separate roster edits are needed.
+
 ### Updating the Executive Board
 
 1. Open `/content/data/leadership.json`
